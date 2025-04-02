@@ -1,0 +1,1 @@
+C:\Users\adri1\source\repos\Taskmaster\Taskmaster\Taskmaster.csproj;x64
