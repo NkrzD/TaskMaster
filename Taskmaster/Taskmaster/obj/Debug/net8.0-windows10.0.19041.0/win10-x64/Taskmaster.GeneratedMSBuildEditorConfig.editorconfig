@@ -22,8 +22,8 @@ build_property.CsWinRTAotOptimizerEnabled = true
 build_property.CsWinRTAotOptimizerEnabled = true
 build_property.CsWinRTAotWarningLevel = 
 build_property.CsWinRTAotWarningLevel = 
-build_property.RootNamespace = Taskmaster
-build_property.ProjectDir = C:\Users\adri1\source\repos\Taskmaster\Taskmaster\
+build_property.RootNamespace = TaskManagerApp
+build_property.ProjectDir = D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTAotExportsEnabled = 
@@ -35,32 +35,32 @@ build_property.CsWinRTUseWindowsUIXamlProjections = false
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/adri1/source/repos/Taskmaster/Taskmaster/App.xaml]
+[D:/MAUI_project/TaskMaster/Taskmaster/Taskmaster/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Taskmaster.App.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskManagerApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/adri1/source/repos/Taskmaster/Taskmaster/AppShell.xaml]
+[D:/MAUI_project/TaskMaster/Taskmaster/Taskmaster/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Taskmaster.AppShell.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskManagerApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/adri1/source/repos/Taskmaster/Taskmaster/MainPage.xaml]
+[D:/MAUI_project/TaskMaster/Taskmaster/Taskmaster/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Taskmaster.MainPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskManagerApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/adri1/source/repos/Taskmaster/Taskmaster/Resources/Styles/Colors.xaml]
+[D:/MAUI_project/TaskMaster/Taskmaster/Taskmaster/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Taskmaster.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskManagerApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/adri1/source/repos/Taskmaster/Taskmaster/Resources/Styles/Styles.xaml]
+[D:/MAUI_project/TaskMaster/Taskmaster/Taskmaster/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Taskmaster.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskManagerApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

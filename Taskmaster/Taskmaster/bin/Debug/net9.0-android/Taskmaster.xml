@@ -4,7 +4,7 @@
         <name>Taskmaster</name>
     </assembly>
     <members>
-        <member name="T:Taskmaster.Resource">
+        <member name="T:TaskManagerApp.Resource">
             <summary>
             Android Resource Designer class.
             Exposes the Android Resource designer assembly into the project Namespace.

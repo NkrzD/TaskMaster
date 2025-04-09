@@ -1,0 +1,62 @@
+# **  Build & Compiled Files**
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.app/
+*.ipa
+*.apk
+*.aab
+*.so
+*.dylib
+
+# ** User-specific & Temporary Files**
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln.cache
+*.sln.ide
+*.swp
+*.swn
+*.swo
+
+# MAUI Platform-Specific Folders**
+Platforms/iOS/Resources/
+Platforms/Android/Resources/
+Platforms/MacCatalyst/Resources/
+Platforms/Tizen/Resources/
+Platforms/Windows/Resources/
+
+# **  MAUI Generated & Temporary Files**
+MauiProgram.csproj.user
+appsettings.Development.json
+appsettings.Local.json
+
+# **  Entity Framework Migrations (optional)**
+Migrations/
+
+# **  Dependency & NuGet Packages**
+packages/
+.nuget/
+*.nupkg
+project.lock.json
+global.json
+paket-files/
+*.snupkg
+
+# **  Logs & Debugging**
+*.log
+logs/
+hs_err_pid*
+debug.log
+
+# **  macOS & Linux Specific**
+.DS_Store
+*.pid
+*.seed
+*.sw?
+Thumbs.db
