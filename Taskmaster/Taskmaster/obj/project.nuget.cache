@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cBDsFzr9VOs=",
+  "dgSpecHash": "lNULfKiGG1s=",
   "success": true,
-  "projectFilePath": "D:\\MAUI_project\\TaskMaster\\Taskmaster\\Taskmaster\\Taskmaster.csproj",
+  "projectFilePath": "D:\\MAUI_projectv3\\TaskMaster\\Taskmaster\\Taskmaster\\Taskmaster.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\julie\\.nuget\\packages\\dotnetenv\\3.1.1\\dotnetenv.3.1.1.nupkg.sha512",
     "C:\\Users\\julie\\.nuget\\packages\\googlegson\\2.11.0.3\\googlegson.2.11.0.3.nupkg.sha512",

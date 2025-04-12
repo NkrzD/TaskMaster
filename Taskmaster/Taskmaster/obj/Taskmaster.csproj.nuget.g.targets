@@ -1,5 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(TargetFramework)' == 'net9.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)system.text.json\9.0.3\buildTransitive\net8.0\System.Text.Json.targets" Condition="Exists('$(NuGetPackageRoot)system.text.json\9.0.3\buildTransitive\net8.0\System.Text.Json.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\9.0.3\buildTransitive\net8.0\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\9.0.3\buildTransitive\net8.0\Microsoft.Extensions.Logging.Abstractions.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.options\9.0.3\buildTransitive\net8.0\Microsoft.Extensions.Options.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.options\9.0.3\buildTransitive\net8.0\Microsoft.Extensions.Options.targets')" />
+    <Import Project="$(NuGetPackageRoot)mono.texttemplating\3.0.0\buildTransitive\Mono.TextTemplating.targets" Condition="Exists('$(NuGetPackageRoot)mono.texttemplating\3.0.0\buildTransitive\Mono.TextTemplating.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.maui.resizetizer\9.0.14\buildTransitive\Microsoft.Maui.Resizetizer.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.maui.resizetizer\9.0.14\buildTransitive\Microsoft.Maui.Resizetizer.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.maui.core\9.0.14\buildTransitive\Microsoft.Maui.Core.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.maui.core\9.0.14\buildTransitive\Microsoft.Maui.Core.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.maui.controls.build.tasks\9.0.14\buildTransitive\netstandard2.0\Microsoft.Maui.Controls.Build.Tasks.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.maui.controls.build.tasks\9.0.14\buildTransitive\netstandard2.0\Microsoft.Maui.Controls.Build.Tasks.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\3.3.4\buildTransitive\Microsoft.CodeAnalysis.Analyzers.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\3.3.4\buildTransitive\Microsoft.CodeAnalysis.Analyzers.targets')" />
+  </ImportGroup>
   <ImportGroup Condition=" '$(TargetFramework)' == 'net9.0-android' AND '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)xamarin.jetbrains.annotations\24.1.0.8\buildTransitive\net8.0-android34.0\Xamarin.Jetbrains.Annotations.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.jetbrains.annotations\24.1.0.8\buildTransitive\net8.0-android34.0\Xamarin.Jetbrains.Annotations.targets')" />
     <Import Project="$(NuGetPackageRoot)xamarin.kotlin.stdlib\2.0.10.1\buildTransitive\net8.0-android34.0\Xamarin.Kotlin.StdLib.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.kotlin.stdlib\2.0.10.1\buildTransitive\net8.0-android34.0\Xamarin.Kotlin.StdLib.targets')" />

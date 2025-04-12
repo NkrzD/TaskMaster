@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.taskmanagerapp</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>044D5CD05B4229435746CE14A676BE2163D0BB10E61651747B3B0320952CB26C</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.taskmanagerapp_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.taskmanagerapp_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,264 +26,264 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-09T16:59:45.554</Modified>
+      <Modified>2025-04-12T13:37:37.733</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-04-09T16:40:44.612</Modified>
+      <Modified>2025-04-12T13:00:34.825</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Taskmaster.runtimeconfig.json">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Taskmaster.runtimeconfig.json">
       <PackagePath>Taskmaster.runtimeconfig.json</PackagePath>
-      <Modified>2025-04-09T16:33:37.572</Modified>
+      <Modified>2025-04-12T13:00:34.755</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Taskmaster.dll">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Taskmaster.dll">
       <PackagePath>Taskmaster.dll</PackagePath>
-      <Modified>2025-04-09T16:59:45.238</Modified>
+      <Modified>2025-04-12T13:11:23.704</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Taskmaster.exe</PackagePath>
-      <Modified>2025-04-09T16:59:45.241</Modified>
+      <Modified>2025-04-12T13:11:23.706</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2025-04-09T16:25:22.197</Modified>
+      <Modified>2025-04-12T12:16:32.510</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-04-09T16:32:58.356</Modified>
+      <Modified>2025-04-12T13:00:33.277</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-04-09T16:32:58.369</Modified>
+      <Modified>2025-04-12T13:00:33.291</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-04-09T16:32:58.386</Modified>
+      <Modified>2025-04-12T13:00:33.307</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-04-09T16:32:58.419</Modified>
+      <Modified>2025-04-12T13:00:33.336</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-04-09T16:32:58.537</Modified>
+      <Modified>2025-04-12T13:00:33.447</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2025-04-09T16:25:22.195</Modified>
+      <Modified>2025-04-12T12:16:32.508</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2025-04-09T16:25:22.196</Modified>
+      <Modified>2025-04-12T12:16:32.509</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-04-09T16:32:59.136</Modified>
+      <Modified>2025-04-12T13:00:34.144</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.130</Modified>
+      <Modified>2025-04-12T13:00:34.138</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.130</Modified>
+      <Modified>2025-04-12T13:00:34.138</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.130</Modified>
+      <Modified>2025-04-12T13:00:34.137</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.130</Modified>
+      <Modified>2025-04-12T13:00:34.137</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.129</Modified>
+      <Modified>2025-04-12T13:00:34.137</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.133</Modified>
+      <Modified>2025-04-12T13:00:34.141</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.133</Modified>
+      <Modified>2025-04-12T13:00:34.141</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.133</Modified>
+      <Modified>2025-04-12T13:00:34.141</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.133</Modified>
+      <Modified>2025-04-12T13:00:34.141</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.133</Modified>
+      <Modified>2025-04-12T13:00:34.141</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.134</Modified>
+      <Modified>2025-04-12T13:00:34.142</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.134</Modified>
+      <Modified>2025-04-12T13:00:34.142</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.133</Modified>
+      <Modified>2025-04-12T13:00:34.141</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.134</Modified>
+      <Modified>2025-04-12T13:00:34.142</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.134</Modified>
+      <Modified>2025-04-12T13:00:34.141</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.136</Modified>
+      <Modified>2025-04-12T13:00:34.143</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.136</Modified>
+      <Modified>2025-04-12T13:00:34.143</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.136</Modified>
+      <Modified>2025-04-12T13:00:34.143</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.135</Modified>
+      <Modified>2025-04-12T13:00:34.143</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.135</Modified>
+      <Modified>2025-04-12T13:00:34.143</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.135</Modified>
+      <Modified>2025-04-12T13:00:34.143</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.135</Modified>
+      <Modified>2025-04-12T13:00:34.143</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.134</Modified>
+      <Modified>2025-04-12T13:00:34.142</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.135</Modified>
+      <Modified>2025-04-12T13:00:34.142</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.135</Modified>
+      <Modified>2025-04-12T13:00:34.142</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.131</Modified>
+      <Modified>2025-04-12T13:00:34.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.131</Modified>
+      <Modified>2025-04-12T13:00:34.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.131</Modified>
+      <Modified>2025-04-12T13:00:34.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.131</Modified>
+      <Modified>2025-04-12T13:00:34.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.131</Modified>
+      <Modified>2025-04-12T13:00:34.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.132</Modified>
+      <Modified>2025-04-12T13:00:34.140</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.132</Modified>
+      <Modified>2025-04-12T13:00:34.140</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.132</Modified>
+      <Modified>2025-04-12T13:00:34.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.132</Modified>
+      <Modified>2025-04-12T13:00:34.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.132</Modified>
+      <Modified>2025-04-12T13:00:34.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.133</Modified>
+      <Modified>2025-04-12T13:00:34.140</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.133</Modified>
+      <Modified>2025-04-12T13:00:34.140</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.132</Modified>
+      <Modified>2025-04-12T13:00:34.140</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.132</Modified>
+      <Modified>2025-04-12T13:00:34.140</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.132</Modified>
+      <Modified>2025-04-12T13:00:34.140</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.131</Modified>
+      <Modified>2025-04-12T13:00:34.138</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.131</Modified>
+      <Modified>2025-04-12T13:00:34.138</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.131</Modified>
+      <Modified>2025-04-12T13:00:34.138</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.130</Modified>
+      <Modified>2025-04-12T13:00:34.138</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.130</Modified>
+      <Modified>2025-04-12T13:00:34.138</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.137</Modified>
+      <Modified>2025-04-12T13:00:34.144</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.137</Modified>
+      <Modified>2025-04-12T13:00:34.144</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.137</Modified>
+      <Modified>2025-04-12T13:00:34.144</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.136</Modified>
+      <Modified>2025-04-12T13:00:34.144</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-04-09T16:32:59.136</Modified>
+      <Modified>2025-04-12T13:00:34.144</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\julie\.nuget\packages\microsoft.web.webview2\1.0.2792.45\runtimes\win-x64\native\WebView2Loader.dll">
       <PackagePath>runtimes\win-x64\native\WebView2Loader.dll</PackagePath>
@@ -621,9 +621,9 @@
       <PackagePath>Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
       <Modified>2024-09-15T09:07:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\MAUI_project\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Taskmaster.deps.json">
+    <AppxPackagedFile Include="D:\MAUI_projectv2\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Taskmaster.deps.json">
       <PackagePath>Taskmaster.deps.json</PackagePath>
-      <Modified>2025-04-09T16:40:44.731</Modified>
+      <Modified>2025-04-12T13:00:34.903</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\julie\.nuget\packages\humanizer.core\2.14.1\lib\net6.0\Humanizer.dll">
       <PackagePath>Humanizer.dll</PackagePath>

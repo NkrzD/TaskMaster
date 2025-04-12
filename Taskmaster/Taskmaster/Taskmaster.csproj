@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net9.0-android;net9.0-ios;net9.0-maccatalyst;net9.0-windows10.0.19041.0</TargetFrameworks>
+    <TargetFrameworks>net9.0-android;net9.0-ios;net9.0-maccatalyst;net9.0-windows10.0.19041.0;net9.0</TargetFrameworks>
     
     <!-- Cibler la plateforme Windows -->
     <OutputType>Exe</OutputType>
@@ -64,5 +64,8 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="9.0.0-preview.3.efcore.9.0.0" />
   </ItemGroup>
+
+
+
 
 </Project>
