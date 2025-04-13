@@ -72,6 +72,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "CommunityToolkit.MVVM": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
             "DotNetEnv": {
               "target": "Package",
               "version": "[3.1.1, )"
@@ -128,6 +132,10 @@
         "net9.0-android35.0": {
           "targetAlias": "net9.0-android",
           "dependencies": {
+            "CommunityToolkit.MVVM": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
             "DotNetEnv": {
               "target": "Package",
               "version": "[3.1.1, )"
@@ -193,6 +201,10 @@
         "net9.0-ios18.2": {
           "targetAlias": "net9.0-ios",
           "dependencies": {
+            "CommunityToolkit.MVVM": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
             "DotNetEnv": {
               "target": "Package",
               "version": "[3.1.1, )"
@@ -258,6 +270,10 @@
         "net9.0-maccatalyst18.2": {
           "targetAlias": "net9.0-maccatalyst",
           "dependencies": {
+            "CommunityToolkit.MVVM": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
             "DotNetEnv": {
               "target": "Package",
               "version": "[3.1.1, )"
@@ -324,6 +340,10 @@
         "net9.0-windows10.0.19041": {
           "targetAlias": "net9.0-windows10.0.19041.0",
           "dependencies": {
+            "CommunityToolkit.MVVM": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
             "DotNetEnv": {
               "target": "Package",
               "version": "[3.1.1, )"

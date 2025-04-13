@@ -156,3 +156,4 @@ D:\MAUI_projectv3\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0\refint\Taskm
 D:\MAUI_projectv3\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0\Taskmaster.pdb
 D:\MAUI_projectv3\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0\Taskmaster.genruntimeconfig.cache
 D:\MAUI_projectv3\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0\ref\Taskmaster.dll
+D:\MAUI_projectv3\TaskMaster\Taskmaster\Taskmaster\bin\Debug\net9.0\CommunityToolkit.Mvvm.dll

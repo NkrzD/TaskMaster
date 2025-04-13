@@ -27,17 +27,6 @@ namespace TaskMaster.Data
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-       /* protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseMySql(
-                    "Server=localhost;Port=3306;Database=taskmanagerdb;User=root;Password=;",
-                    new MySqlServerVersion(new Version(8, 0, 30))
-                );
-            }
-        }*/
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Relation Many-to-Many entre Tache et Etiquette via TacheEtiquette

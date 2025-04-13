@@ -1,59 +1,79 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Maui.Controls;
-using TaskMaster.Data;
+﻿using TaskMaster.Data;
+using TaskMaster.ViewModels;
+using TaskMaster.Models;
 
 namespace Taskmaster
 {
     public partial class MainPage : ContentPage
     {
-        private readonly AppDbContext _dbContext;  // Injecte le DbContext ici
-        int count = 0;
-        public MainPage(AppDbContext dbContext)  // Injecte ici via le constructeur
+        private readonly AppDbContext _dbContext;
+        private readonly TacheViewModel _viewModel;
+
+        public MainPage(AppDbContext dbContext)
         {
             InitializeComponent();
-            _dbContext = dbContext;
 
-            // Appel à la méthode pour tester la connexion au démarrage
+            _dbContext = dbContext;
+            _viewModel = new TacheViewModel(_dbContext);
+
+            BindingContext = _viewModel;
+
             CheckDatabaseConnection();
         }
 
-        // Méthode pour tester la connexion à la base de données
+        private async void OnAddTacheClicked(object sender, EventArgs e)
+        {
+            var titre = TitreEntry.Text?.Trim();
+            var description = DescriptionEditor.Text?.Trim();
+
+            if (string.IsNullOrWhiteSpace(titre))
+            {
+                await DisplayAlert("Erreur", "Le titre est obligatoire.", "OK");
+                return;
+            }
+
+            var nouvelleTache = new Tache
+            {
+                Titre = titre,
+                Description = description ?? "",
+                DateCreation = DateTime.Now,
+                Statut = Statut.Afaire,
+                Priorite = Priorite.Moyenne,
+                Categorie = "Général",
+                AuteurId = 1  // à adapter selon ton modèle
+            };
+
+            _dbContext.Taches.Add(nouvelleTache);
+            await _dbContext.SaveChangesAsync();
+
+            // Recharge la liste
+            await _viewModel.LoadTaches();
+
+            // Nettoyage des champs
+            TitreEntry.Text = "";
+            DescriptionEditor.Text = "";
+        }
+
         private async void CheckDatabaseConnection()
         {
             try
             {
-                // Test de la connexion
                 if (await _dbContext.Database.CanConnectAsync())
                 {
-                    // Mise à jour du texte du label si la connexion est réussie
                     StatusLabel.Text = "Connexion à la base de données réussie !";
-                    StatusLabel.TextColor = Microsoft.Maui.Graphics.Colors.Green;
+                    StatusLabel.TextColor = Colors.Green;
                 }
                 else
                 {
-                    // Si la connexion échoue
                     StatusLabel.Text = "Échec de la connexion à la base de données.";
-                    StatusLabel.TextColor = Microsoft.Maui.Graphics.Colors.Red;
+                    StatusLabel.TextColor = Colors.Red;
                 }
             }
             catch (Exception ex)
             {
-                // Gestion des erreurs et affichage dans le label
                 StatusLabel.Text = $"Erreur de connexion : {ex.Message}";
-                StatusLabel.TextColor = Microsoft.Maui.Graphics.Colors.Red;
+                StatusLabel.TextColor = Colors.Red;
             }
-        }
-
-        private void OnCounterClicked(object sender, EventArgs e)
-        {
-            count++;
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
         }
     }
 }

@@ -12,6 +12,8 @@ namespace TaskMaster.Models
         public string Nom { get; set; } = default!;
         public string Prenom { get; set; } = default!;
         public string Email { get; set; } = default!;
+        public string MotDePasse { get; set; } = default!;
+
 
         public List<Tache> TachesCreees { get; set; } = new();
         public List<Tache> TachesAssignees { get; set; } = new();

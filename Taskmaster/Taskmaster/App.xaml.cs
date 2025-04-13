@@ -1,12 +1,16 @@
-﻿namespace Taskmaster
+﻿using TaskMaster.Data;
+using Taskmaster.Views;
+
+namespace Taskmaster
 {
     public partial class App : Application
     {
-        public App()
+        public App(AppDbContext dbContext)
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            // Afficher la page de connexion au démarrage
+            MainPage = new NavigationPage(new ConnexionPage(dbContext));
         }
     }
 }

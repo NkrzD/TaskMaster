@@ -552,3 +552,4 @@ D:\MAUI_projectv3\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.
 D:\MAUI_projectv3\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\MAUI_projectv3\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Taskmaster.genpublishdeps.cache
 D:\MAUI_projectv3\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\MAUI_projectv3\TaskMaster\Taskmaster\Taskmaster\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll

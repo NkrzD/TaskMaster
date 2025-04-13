@@ -171,6 +171,10 @@ namespace TaskManagerApp.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<string>("MotDePasse")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<string>("Nom")
                         .IsRequired()
                         .HasColumnType("longtext");
