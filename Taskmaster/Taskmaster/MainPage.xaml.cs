@@ -47,10 +47,11 @@ namespace Taskmaster
                 Description = description ?? "",
                 DateCreation = DateTime.Now,
                 Statut = (Statut)StatutPicker.SelectedIndex,
-                Priorite = Priorite.Moyenne,
+                Priorite = (Priorite)PrioritePicker.SelectedIndex,
                 Categorie = "Général",
                 AuteurId = AppSession.CurrentUser.Id
             };
+
 
             _dbContext.Taches.Add(nouvelleTache);
             await _dbContext.SaveChangesAsync();
@@ -79,24 +80,29 @@ namespace Taskmaster
             var button = (Button)sender;
             var tache = (Tache)button.CommandParameter;
 
-            // Affiche une popup de modification rapide
             string nouveauTitre = await DisplayPromptAsync("Modifier", "Titre :", initialValue: tache.Titre);
             string nouvelleDescription = await DisplayPromptAsync("Modifier", "Description :", initialValue: tache.Description);
 
             string[] statuts = Enum.GetNames(typeof(Statut));
             string nouveauStatut = await DisplayActionSheet("Choisir un nouveau statut", "Annuler", null, statuts);
 
-            if (!string.IsNullOrWhiteSpace(nouveauTitre) && !string.IsNullOrWhiteSpace(nouveauStatut))
+            string[] priorites = Enum.GetNames(typeof(Priorite));
+            string nouvellePriorite = await DisplayActionSheet("Choisir une priorité", "Annuler", null, priorites);
+
+            if (!string.IsNullOrWhiteSpace(nouveauTitre) &&
+                !string.IsNullOrWhiteSpace(nouveauStatut) &&
+                !string.IsNullOrWhiteSpace(nouvellePriorite))
             {
                 tache.Titre = nouveauTitre;
                 tache.Description = nouvelleDescription;
                 tache.Statut = Enum.Parse<Statut>(nouveauStatut);
+                tache.Priorite = Enum.Parse<Priorite>(nouvellePriorite);
 
                 _dbContext.Taches.Update(tache);
                 await _dbContext.SaveChangesAsync();
-                await _viewModel.LoadTaches();
             }
         }
+
 
         private async void CheckDatabaseConnection()
         {
