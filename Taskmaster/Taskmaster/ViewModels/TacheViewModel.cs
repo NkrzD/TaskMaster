@@ -20,10 +20,17 @@ namespace TaskMaster.ViewModels
 
         public async Task LoadTaches()
         {
-            var tachesFromDb = await _dbContext.Taches.ToListAsync();
+            if (AppSession.CurrentUser == null) return;
+
             Taches.Clear();
-            foreach (var tache in tachesFromDb)
+
+            var tachesUtilisateur = await _dbContext.Taches
+                .Where(t => t.AuteurId == AppSession.CurrentUser.Id)
+                .ToListAsync();
+
+            foreach (var tache in tachesUtilisateur)
                 Taches.Add(tache);
         }
+
     }
 }

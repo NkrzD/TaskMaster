@@ -24,6 +24,18 @@
                 <Entry x:Name="TitreEntry" Placeholder="Titre de la tâche" />
                 <Editor x:Name="DescriptionEditor" Placeholder="Description" HeightRequest="80" />
 
+                <Picker x:Name="StatutPicker" Title="Statut de la tâche">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>À faire</x:String>
+                            <x:String>En cours</x:String>
+                            <x:String>Terminée</x:String>
+                            <x:String>Annulée</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+
+
                 <Button Text="Ajouter la tâche" Clicked="OnAddTacheClicked" BackgroundColor="DarkGreen" TextColor="White" />
 
             </VerticalStackLayout>
@@ -38,6 +50,12 @@
                                 <Label Text="{Binding Titre}" FontSize="20" FontAttributes="Bold" />
                                 <Label Text="{Binding Description}" FontSize="14" TextColor="Gray" />
                                 <Label Text="{Binding Statut}" FontSize="12" TextColor="DarkGreen" />
+
+                                <!-- Boutons d'action -->
+                                <HorizontalStackLayout Spacing="10">
+                                    <Button Text="Modifier" Clicked="OnModifierClicked" CommandParameter="{Binding}" />
+                                    <Button Text="Supprimer" Clicked="OnSupprimerClicked" CommandParameter="{Binding}" TextColor="Red" />
+                                </HorizontalStackLayout>
                             </VerticalStackLayout>
                         </Frame>
                     </DataTemplate>

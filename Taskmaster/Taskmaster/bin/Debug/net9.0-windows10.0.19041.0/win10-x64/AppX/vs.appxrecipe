@@ -29,7 +29,7 @@
     <AppXManifest Include="D:\MAUI_projectv3\TaskMaster\Taskmaster\Taskmaster\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-14T11:02:31.388</Modified>
+      <Modified>2025-04-14T11:29:30.894</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\MAUI_projectv3\TaskMaster\Taskmaster\Taskmaster\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Taskmaster.dll">
       <PackagePath>Taskmaster.dll</PackagePath>
-      <Modified>2025-04-14T11:02:31.062</Modified>
+      <Modified>2025-04-14T11:29:30.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\MAUI_projectv3\TaskMaster\Taskmaster\Taskmaster\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Taskmaster.exe</PackagePath>
-      <Modified>2025-04-14T11:02:31.066</Modified>
+      <Modified>2025-04-14T11:29:30.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\MAUI_projectv3\TaskMaster\Taskmaster\Taskmaster\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

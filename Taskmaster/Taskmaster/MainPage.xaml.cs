@@ -19,6 +19,8 @@ namespace Taskmaster
 
             BindingContext = _viewModel;
 
+            _ = _viewModel.LoadTaches(); // Chargement initial des tâches
+
             CheckDatabaseConnection();
         }
 
@@ -44,7 +46,7 @@ namespace Taskmaster
                 Titre = titre,
                 Description = description ?? "",
                 DateCreation = DateTime.Now,
-                Statut = Statut.Afaire,
+                Statut = (Statut)StatutPicker.SelectedIndex,
                 Priorite = Priorite.Moyenne,
                 Categorie = "Général",
                 AuteurId = AppSession.CurrentUser.Id
@@ -59,6 +61,42 @@ namespace Taskmaster
             DescriptionEditor.Text = "";
         }
 
+        private async void OnSupprimerClicked(object sender, EventArgs e)
+        {
+            var button = (Button)sender;
+            var tache = (Tache)button.CommandParameter;
+
+            var confirmation = await DisplayAlert("Confirmation", "Supprimer cette tâche ?", "Oui", "Non");
+            if (!confirmation) return;
+
+            _dbContext.Taches.Remove(tache);
+            await _dbContext.SaveChangesAsync();
+            await _viewModel.LoadTaches();
+        }
+
+        private async void OnModifierClicked(object sender, EventArgs e)
+        {
+            var button = (Button)sender;
+            var tache = (Tache)button.CommandParameter;
+
+            // Affiche une popup de modification rapide
+            string nouveauTitre = await DisplayPromptAsync("Modifier", "Titre :", initialValue: tache.Titre);
+            string nouvelleDescription = await DisplayPromptAsync("Modifier", "Description :", initialValue: tache.Description);
+
+            string[] statuts = Enum.GetNames(typeof(Statut));
+            string nouveauStatut = await DisplayActionSheet("Choisir un nouveau statut", "Annuler", null, statuts);
+
+            if (!string.IsNullOrWhiteSpace(nouveauTitre) && !string.IsNullOrWhiteSpace(nouveauStatut))
+            {
+                tache.Titre = nouveauTitre;
+                tache.Description = nouvelleDescription;
+                tache.Statut = Enum.Parse<Statut>(nouveauStatut);
+
+                _dbContext.Taches.Update(tache);
+                await _dbContext.SaveChangesAsync();
+                await _viewModel.LoadTaches();
+            }
+        }
 
         private async void CheckDatabaseConnection()
         {
