@@ -1,6 +1,7 @@
 ﻿using TaskMaster.Data;
 using TaskMaster.ViewModels;
 using TaskMaster.Models;
+using TaskMaster;
 
 namespace Taskmaster
 {
@@ -23,6 +24,12 @@ namespace Taskmaster
 
         private async void OnAddTacheClicked(object sender, EventArgs e)
         {
+            if (AppSession.CurrentUser == null)
+            {
+                await DisplayAlert("Erreur", "Aucun utilisateur connecté.", "OK");
+                return;
+            }
+
             var titre = TitreEntry.Text?.Trim();
             var description = DescriptionEditor.Text?.Trim();
 
@@ -40,19 +47,18 @@ namespace Taskmaster
                 Statut = Statut.Afaire,
                 Priorite = Priorite.Moyenne,
                 Categorie = "Général",
-                AuteurId = 1  // à adapter selon ton modèle
+                AuteurId = AppSession.CurrentUser.Id
             };
 
             _dbContext.Taches.Add(nouvelleTache);
             await _dbContext.SaveChangesAsync();
 
-            // Recharge la liste
             await _viewModel.LoadTaches();
 
-            // Nettoyage des champs
             TitreEntry.Text = "";
             DescriptionEditor.Text = "";
         }
+
 
         private async void CheckDatabaseConnection()
         {
