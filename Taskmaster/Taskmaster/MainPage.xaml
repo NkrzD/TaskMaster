@@ -64,16 +64,27 @@
                                 <Label Text="{Binding Statut}" FontSize="12" TextColor="DarkGreen" />
                                 <Label Text="{Binding Priorite}" FontSize="12" TextColor="DarkRed" />
 
-                                <HorizontalStackLayout Spacing="10">
-                                    <Button Text="Modifier" Clicked="OnModifierClicked" CommandParameter="{Binding}" />
-                                    <Button Text="Supprimer" Clicked="OnSupprimerClicked" CommandParameter="{Binding}" TextColor="Red" />
-                                </HorizontalStackLayout>
+                                <!-- Ajouter un champ pour ajouter un commentaire -->
+                                <Entry x:Name="CommentaireEntry" Placeholder="Ajouter un commentaire" />
+
+                                <!-- Ajouter un bouton pour ajouter le commentaire -->
+                                <Button Text="Ajouter un commentaire" Clicked="OnAddCommentaireClicked" CommandParameter="{Binding}" />
+
+                                <!-- Affichage des commentaires existants -->
+                                <CollectionView ItemsSource="{Binding Commentaires}">
+                                    <CollectionView.ItemTemplate>
+                                        <DataTemplate>
+                                            <Label Text="{Binding Contenu}" FontSize="12" TextColor="Gray" />
+                                        </DataTemplate>
+                                    </CollectionView.ItemTemplate>
+                                </CollectionView>
                             </VerticalStackLayout>
                         </Frame>
-
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
+
+
 
         </VerticalStackLayout>
     </ScrollView>

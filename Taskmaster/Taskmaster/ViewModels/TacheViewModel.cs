@@ -24,13 +24,19 @@ namespace TaskMaster.ViewModels
 
             Taches.Clear();
 
+            // Charger les tâches de l'utilisateur et inclure les commentaires associés
             var tachesUtilisateur = await _dbContext.Taches
                 .Where(t => t.AuteurId == AppSession.CurrentUser.Id)
+                .Include(t => t.Commentaires)  // Inclure les commentaires pour chaque tâche
                 .ToListAsync();
 
             foreach (var tache in tachesUtilisateur)
+            {
+                // Ajoute la tâche avec ses commentaires
                 Taches.Add(tache);
+            }
         }
+
 
     }
 }

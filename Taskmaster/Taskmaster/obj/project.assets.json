@@ -102003,24 +102003,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\julie\\.nuget\\packages\\": {},
+    "C:\\Users\\adri1\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MAUI_projectv3\\TaskMaster\\Taskmaster\\Taskmaster\\Taskmaster.csproj",
+      "projectUniqueName": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\Taskmaster.csproj",
       "projectName": "Taskmaster",
-      "projectPath": "D:\\MAUI_projectv3\\TaskMaster\\Taskmaster\\Taskmaster\\Taskmaster.csproj",
-      "packagesPath": "C:\\Users\\julie\\.nuget\\packages\\",
-      "outputPath": "D:\\MAUI_projectv3\\TaskMaster\\Taskmaster\\Taskmaster\\obj\\",
+      "projectPath": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\Taskmaster.csproj",
+      "packagesPath": "C:\\Users\\adri1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\julie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\adri1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

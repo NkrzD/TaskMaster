@@ -103,6 +103,47 @@ namespace Taskmaster
             }
         }
 
+        private async void OnAddCommentaireClicked(object sender, EventArgs e)
+        {
+            // Récupérer la tâche pour laquelle nous ajoutons un commentaire
+            var button = (Button)sender;
+            var tache = (Tache)button.CommandParameter;
+
+            // Récupérer le contenu du commentaire
+            var contenuCommentaire = ((Entry)button.Parent.FindByName("CommentaireEntry")).Text?.Trim();
+
+            if (!string.IsNullOrWhiteSpace(contenuCommentaire))
+            {
+                // Vérifier si un utilisateur est connecté (s'il y en a un)
+                if (AppSession.CurrentUser == null)
+                {
+                    await DisplayAlert("Erreur", "Veuillez vous connecter pour ajouter un commentaire.", "OK");
+                    return;
+                }
+
+                // Créer un nouveau commentaire
+                var commentaire = new Commentaire
+                {
+                    Contenu = contenuCommentaire,
+                    Date = DateTime.Now,
+                    AuteurId = AppSession.CurrentUser.Id,  // ID de l'utilisateur connecté
+                    TacheId = tache.Id
+                };
+
+                // Ajouter le commentaire à la base de données
+                _dbContext.Commentaires.Add(commentaire);
+                await _dbContext.SaveChangesAsync();
+
+                // Recharger les commentaires pour la tâche donnée
+                await _viewModel.LoadTaches();
+            }
+            else
+            {
+                await DisplayAlert("Erreur", "Le commentaire ne peut pas être vide.", "OK");
+            }
+        }
+
+
 
         private async void CheckDatabaseConnection()
         {
