@@ -1,7 +1,7 @@
 ﻿// AppSession.cs
 using TaskMaster.Models;
 
-namespace TaskMaster
+namespace TaskManagerApp.Views
 {
     public static class AppSession
     {

@@ -1,6 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using TaskManagerApp.Views;
 using TaskMaster.Data;
 using TaskMaster.Models;
 

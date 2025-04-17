@@ -1,62 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\",
+  "WorkspaceRootPath": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|c:\\users\\adri1\\onedrive\\bureau\\projet taskmaster\\taskmaster\\taskmaster\\taskmaster\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|d:\\mauiv4\\taskmaster\\taskmaster\\taskmaster\\programef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\programef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|d:\\mauiv4\\taskmaster\\taskmaster\\taskmaster\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|d:\\mauiv4\\taskmaster\\taskmaster\\taskmaster\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|d:\\mauiv4\\taskmaster\\taskmaster\\taskmaster\\views\\inscriptionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\views\\inscriptionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|d:\\mauiv4\\taskmaster\\taskmaster\\taskmaster\\views\\connexionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\views\\connexionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|d:\\mauiv4\\taskmaster\\taskmaster\\taskmaster\\views\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\views\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|d:\\mauiv4\\taskmaster\\taskmaster\\taskmaster\\views\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\views\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|d:\\mauiv4\\taskmaster\\taskmaster\\taskmaster\\views\\appsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\views\\appsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|d:\\mauiv4\\taskmaster\\taskmaster\\taskmaster\\views\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\views\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|d:\\mauiv4\\taskmaster\\taskmaster\\taskmaster\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|c:\\users\\adri1\\onedrive\\bureau\\projet taskmaster\\taskmaster\\taskmaster\\taskmaster\\connexionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\connexionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|d:\\mauiv4\\taskmaster\\taskmaster\\taskmaster\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|c:\\users\\adri1\\onedrive\\bureau\\projet taskmaster\\taskmaster\\taskmaster\\taskmaster\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|d:\\mauiv4\\taskmaster\\taskmaster\\taskmaster\\views\\connexionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\views\\connexionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|c:\\users\\adri1\\onedrive\\bureau\\projet taskmaster\\taskmaster\\taskmaster\\taskmaster\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|c:\\users\\adri1\\onedrive\\bureau\\projet taskmaster\\taskmaster\\taskmaster\\taskmaster\\viewmodels\\tacheviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|d:\\mauiv4\\taskmaster\\taskmaster\\taskmaster\\viewmodels\\tacheviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\viewmodels\\tacheviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|c:\\users\\adri1\\onedrive\\bureau\\projet taskmaster\\taskmaster\\taskmaster\\taskmaster\\models\\commentaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\models\\commentaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|c:\\users\\adri1\\onedrive\\bureau\\projet taskmaster\\taskmaster\\taskmaster\\taskmaster\\models\\etiquette.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\models\\etiquette.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|c:\\users\\adri1\\onedrive\\bureau\\projet taskmaster\\taskmaster\\taskmaster\\taskmaster\\models\\soustache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\models\\soustache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|c:\\users\\adri1\\onedrive\\bureau\\projet taskmaster\\taskmaster\\taskmaster\\taskmaster\\models\\tache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\models\\tache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|c:\\users\\adri1\\onedrive\\bureau\\projet taskmaster\\taskmaster\\taskmaster\\taskmaster\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|c:\\users\\adri1\\onedrive\\bureau\\projet taskmaster\\taskmaster\\taskmaster\\taskmaster\\inscriptionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\inscriptionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|c:\\users\\adri1\\onedrive\\bureau\\projet taskmaster\\taskmaster\\taskmaster\\taskmaster\\appsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\appsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|c:\\users\\adri1\\onedrive\\bureau\\projet taskmaster\\taskmaster\\taskmaster\\taskmaster\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|d:\\mauiv4\\taskmaster\\taskmaster\\taskmaster\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|c:\\users\\adri1\\onedrive\\bureau\\projet taskmaster\\taskmaster\\taskmaster\\taskmaster\\programef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\programef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|d:\\mauiv4\\taskmaster\\taskmaster\\taskmaster\\models\\commentaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\models\\commentaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|d:\\mauiv4\\taskmaster\\taskmaster\\taskmaster\\models\\etiquette.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\models\\etiquette.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|d:\\mauiv4\\taskmaster\\taskmaster\\taskmaster\\models\\soustache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\models\\soustache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|d:\\mauiv4\\taskmaster\\taskmaster\\taskmaster\\models\\tache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\models\\tache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|d:\\mauiv4\\taskmaster\\taskmaster\\taskmaster\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B85070E-73FD-40D1-830F-DD983B4C7E1C}|Taskmaster\\Taskmaster.csproj|solutionrelative:taskmaster\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,177 +86,254 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ConnexionPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\ConnexionPage.xaml.cs",
-              "RelativeDocumentMoniker": "Taskmaster\\ConnexionPage.xaml.cs",
-              "ToolTip": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\ConnexionPage.xaml.cs",
-              "RelativeToolTip": "Taskmaster\\ConnexionPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Title": "appDbContextFactory.cs",
+              "DocumentMoniker": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Data\\appDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Taskmaster\\Data\\appDbContextFactory.cs",
+              "ToolTip": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Data\\appDbContextFactory.cs",
+              "RelativeToolTip": "Taskmaster\\Data\\appDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T15:05:48.941Z",
+              "WhenOpened": "2025-04-17T12:54:03.958Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "Taskmaster\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\MainPage.xaml.cs",
-              "RelativeToolTip": "Taskmaster\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T15:06:32.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Etiquette.cs",
-              "DocumentMoniker": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\Models\\Etiquette.cs",
-              "RelativeDocumentMoniker": "Taskmaster\\Models\\Etiquette.cs",
-              "ToolTip": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\Models\\Etiquette.cs",
-              "RelativeToolTip": "Taskmaster\\Models\\Etiquette.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T14:51:04.198Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "Taskmaster\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\MauiProgram.cs",
-              "RelativeToolTip": "Taskmaster\\MauiProgram.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAmwBsAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T14:40:59.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Commentaire.cs",
-              "DocumentMoniker": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\Models\\Commentaire.cs",
-              "RelativeDocumentMoniker": "Taskmaster\\Models\\Commentaire.cs",
-              "ToolTip": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\Models\\Commentaire.cs",
-              "RelativeToolTip": "Taskmaster\\Models\\Commentaire.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAowBUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T14:51:03.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SousTache.cs",
-              "DocumentMoniker": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\Models\\SousTache.cs",
-              "RelativeDocumentMoniker": "Taskmaster\\Models\\SousTache.cs",
-              "ToolTip": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\Models\\SousTache.cs",
-              "RelativeToolTip": "Taskmaster\\Models\\SousTache.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T14:51:04.831Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Tache.cs",
-              "DocumentMoniker": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\Models\\Tache.cs",
-              "RelativeDocumentMoniker": "Taskmaster\\Models\\Tache.cs",
-              "ToolTip": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\Models\\Tache.cs",
-              "RelativeToolTip": "Taskmaster\\Models\\Tache.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAUwH4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T14:51:05.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Utilisateur.cs",
-              "DocumentMoniker": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\Models\\Utilisateur.cs",
-              "RelativeDocumentMoniker": "Taskmaster\\Models\\Utilisateur.cs",
-              "ToolTip": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\Models\\Utilisateur.cs",
-              "RelativeToolTip": "Taskmaster\\Models\\Utilisateur.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T14:51:06.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TacheViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\ViewModels\\TacheViewModel.cs",
-              "RelativeDocumentMoniker": "Taskmaster\\ViewModels\\TacheViewModel.cs",
-              "ToolTip": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\ViewModels\\TacheViewModel.cs",
-              "RelativeToolTip": "Taskmaster\\ViewModels\\TacheViewModel.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T15:05:06.064Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\MainPage.xaml",
-              "RelativeDocumentMoniker": "Taskmaster\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\MainPage.xaml",
-              "RelativeToolTip": "Taskmaster\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Taskmaster\\Views\\MainPage.xaml",
+              "ToolTip": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Views\\MainPage.xaml",
+              "RelativeToolTip": "Taskmaster\\Views\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-14T15:13:00.484Z"
+              "WhenOpened": "2025-04-17T12:54:01.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InscriptionPage.xaml",
+              "DocumentMoniker": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Views\\InscriptionPage.xaml",
+              "RelativeDocumentMoniker": "Taskmaster\\Views\\InscriptionPage.xaml",
+              "ToolTip": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Views\\InscriptionPage.xaml",
+              "RelativeToolTip": "Taskmaster\\Views\\InscriptionPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-17T12:54:00.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConnexionPage.xaml",
+              "DocumentMoniker": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Views\\ConnexionPage.xaml",
+              "RelativeDocumentMoniker": "Taskmaster\\Views\\ConnexionPage.xaml",
+              "ToolTip": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Views\\ConnexionPage.xaml",
+              "RelativeToolTip": "Taskmaster\\Views\\ConnexionPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-17T12:53:59.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Views\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "Taskmaster\\Views\\AppShell.xaml.cs",
+              "ToolTip": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Views\\AppShell.xaml.cs",
+              "RelativeToolTip": "Taskmaster\\Views\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T12:53:57.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Taskmaster\\MauiProgram.cs",
+              "ToolTip": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\MauiProgram.cs",
+              "RelativeToolTip": "Taskmaster\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T12:32:34.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProgramEf.cs",
+              "DocumentMoniker": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\ProgramEf.cs",
+              "RelativeDocumentMoniker": "Taskmaster\\ProgramEf.cs",
+              "ToolTip": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\ProgramEf.cs",
+              "RelativeToolTip": "Taskmaster\\ProgramEf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T12:32:34.105Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "InscriptionPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\InscriptionPage.xaml.cs",
-              "RelativeDocumentMoniker": "Taskmaster\\InscriptionPage.xaml.cs",
-              "ToolTip": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\InscriptionPage.xaml.cs",
-              "RelativeToolTip": "Taskmaster\\InscriptionPage.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAmwCsAAAAAAAAAAAAAAA==",
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Views\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Taskmaster\\Views\\MainPage.xaml.cs",
+              "ToolTip": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Views\\MainPage.xaml.cs",
+              "RelativeToolTip": "Taskmaster\\Views\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T15:06:12.174Z"
+              "WhenOpened": "2025-04-17T12:13:24.451Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "AppSession.cs",
-              "DocumentMoniker": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\AppSession.cs",
-              "RelativeDocumentMoniker": "Taskmaster\\AppSession.cs",
-              "ToolTip": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\AppSession.cs",
-              "RelativeToolTip": "Taskmaster\\AppSession.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "ConnexionPage.xaml.cs",
+              "DocumentMoniker": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Views\\ConnexionPage.xaml.cs",
+              "RelativeDocumentMoniker": "Taskmaster\\Views\\ConnexionPage.xaml.cs",
+              "ToolTip": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Views\\ConnexionPage.xaml.cs",
+              "RelativeToolTip": "Taskmaster\\Views\\ConnexionPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T15:05:25.691Z"
+              "WhenOpened": "2025-04-17T12:13:22.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Taskmaster\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Taskmaster\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAmwE8AAAAAAAAAAAAAAA==",
+              "Title": "TacheViewModel.cs",
+              "DocumentMoniker": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\ViewModels\\TacheViewModel.cs",
+              "RelativeDocumentMoniker": "Taskmaster\\ViewModels\\TacheViewModel.cs",
+              "ToolTip": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\ViewModels\\TacheViewModel.cs",
+              "RelativeToolTip": "Taskmaster\\ViewModels\\TacheViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T15:02:08.128Z"
+              "WhenOpened": "2025-04-17T12:13:20.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppSession.cs",
+              "DocumentMoniker": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Views\\AppSession.cs",
+              "RelativeDocumentMoniker": "Taskmaster\\Views\\AppSession.cs",
+              "ToolTip": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Views\\AppSession.cs",
+              "RelativeToolTip": "Taskmaster\\Views\\AppSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T12:12:32.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Views\\App.xaml",
+              "RelativeDocumentMoniker": "Taskmaster\\Views\\App.xaml",
+              "ToolTip": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Views\\App.xaml",
+              "RelativeToolTip": "Taskmaster\\Views\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-17T12:11:47.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Views\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Taskmaster\\Views\\AppShell.xaml",
+              "ToolTip": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Views\\AppShell.xaml",
+              "RelativeToolTip": "Taskmaster\\Views\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-17T12:11:40.85Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "ProgramEf.cs",
-              "DocumentMoniker": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\ProgramEf.cs",
-              "RelativeDocumentMoniker": "Taskmaster\\ProgramEf.cs",
-              "ToolTip": "C:\\Users\\adri1\\OneDrive\\Bureau\\Projet taskmaster\\TaskMaster\\Taskmaster\\Taskmaster\\ProgramEf.cs",
-              "RelativeToolTip": "Taskmaster\\ProgramEf.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Taskmaster\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Taskmaster\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwDUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T14:57:18.383Z"
+              "WhenOpened": "2025-04-17T11:45:06.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Commentaire.cs",
+              "DocumentMoniker": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Models\\Commentaire.cs",
+              "RelativeDocumentMoniker": "Taskmaster\\Models\\Commentaire.cs",
+              "ToolTip": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Models\\Commentaire.cs",
+              "RelativeToolTip": "Taskmaster\\Models\\Commentaire.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T11:44:45.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Etiquette.cs",
+              "DocumentMoniker": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Models\\Etiquette.cs",
+              "RelativeDocumentMoniker": "Taskmaster\\Models\\Etiquette.cs",
+              "ToolTip": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Models\\Etiquette.cs",
+              "RelativeToolTip": "Taskmaster\\Models\\Etiquette.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T11:44:21.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SousTache.cs",
+              "DocumentMoniker": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Models\\SousTache.cs",
+              "RelativeDocumentMoniker": "Taskmaster\\Models\\SousTache.cs",
+              "ToolTip": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Models\\SousTache.cs",
+              "RelativeToolTip": "Taskmaster\\Models\\SousTache.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T11:44:06.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Tache.cs",
+              "DocumentMoniker": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Models\\Tache.cs",
+              "RelativeDocumentMoniker": "Taskmaster\\Models\\Tache.cs",
+              "ToolTip": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Models\\Tache.cs",
+              "RelativeToolTip": "Taskmaster\\Models\\Tache.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T11:43:43.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Utilisateur.cs",
+              "DocumentMoniker": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Models\\Utilisateur.cs",
+              "RelativeDocumentMoniker": "Taskmaster\\Models\\Utilisateur.cs",
+              "ToolTip": "D:\\MAUIV4\\TaskMaster\\Taskmaster\\Taskmaster\\Models\\Utilisateur.cs",
+              "RelativeToolTip": "Taskmaster\\Models\\Utilisateur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T11:41:48.272Z",
+              "EditorCaption": ""
             }
           ]
         }

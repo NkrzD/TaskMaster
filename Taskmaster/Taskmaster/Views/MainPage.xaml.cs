@@ -1,7 +1,7 @@
 ﻿using TaskMaster.Data;
 using TaskMaster.ViewModels;
 using TaskMaster.Models;
-using TaskMaster;
+using TaskManagerApp.Views;
 
 namespace Taskmaster
 {

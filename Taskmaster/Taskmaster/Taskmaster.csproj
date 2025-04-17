@@ -67,10 +67,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <MauiXaml Update="ConnexionPage.xaml">
+    <MauiXaml Update="Views\ConnexionPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="InscriptionPage.xaml">
+    <MauiXaml Update="Views\InscriptionPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
   </ItemGroup>

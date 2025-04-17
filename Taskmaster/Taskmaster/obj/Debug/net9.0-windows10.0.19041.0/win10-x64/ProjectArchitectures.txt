@@ -1,1 +1,1 @@
-C:\Users\adri1\OneDrive\Bureau\Projet taskmaster\TaskMaster\Taskmaster\Taskmaster\Taskmaster.csproj;x64
+D:\MAUIV4\TaskMaster\Taskmaster\Taskmaster\Taskmaster.csproj;x64
